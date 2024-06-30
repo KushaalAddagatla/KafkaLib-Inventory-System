@@ -108,4 +108,4 @@ Kushaal Addagatla - Initial work - kushaaladdagatla22@gmail.com
 
 **Acknowledgments**
 
-Dilip Sundar Raj - Instructor of the Udemy course "Apache Kafka for Developers using Spring Boot"
+Pragmatic Code School, Dilip Sundar Raj - Instructor of the Udemy course "Apache Kafka for Developers using Spring Boot"
