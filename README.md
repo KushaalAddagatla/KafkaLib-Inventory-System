@@ -67,8 +67,7 @@ Consumer Microservice:
 The consumer will automatically consume messages from the Kafka topic and persist them into the database.
 
 
-**Testing
-**
+**Testing**
 
 Unit Tests:
 
@@ -93,8 +92,7 @@ cd clibrary-events-consumer
 mvn verify
 
 
-**Error Handling, Retry, and Recovery
-**
+**Error Handling, Retry, and Recovery**
 
 The application implements robust error handling and retry mechanisms to ensure reliable message delivery and processing. Detailed configurations can be found in the respective microservice configuration files.
 
