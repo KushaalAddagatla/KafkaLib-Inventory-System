@@ -37,7 +37,7 @@ Spring Boot <br>
 
 Clone the Repository: 
 
-git clone https://github.com/your-username/kafkalib-inventory-system.git <br>
+git clone https://github.com/KushaalAddagatla/KafkaLib-Inventory-System.git <br>
 cd kafkalib-inventory-system
 
 Start Kafka Cluster: <br>
