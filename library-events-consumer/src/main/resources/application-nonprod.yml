@@ -1,0 +1,10 @@
+spring:
+  config:
+    activate:
+      on-profile: nonprod
+  kafka:
+    consumer:
+      bootstrap-servers: nonprod:9092, nonprod:9093, nonprod:9094
+      key-serializer: org.apache.kafka.common.serialization.IntegerDeserializer
+      value-serializer: org.apache.kafka.common.serialization.StringDeserializer
+      group-id: library-events-listener-group
