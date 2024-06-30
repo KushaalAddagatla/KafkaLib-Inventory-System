@@ -8,20 +8,20 @@ The KafkaLib Inventory System Application is a microservices-based project desig
 
 **Features**
 
-Microservices Architecture: Separate Producer and Consumer microservices.
-Kafka Integration: Utilizes Kafka for messaging between microservices.
-Spring Boot: Simplifies the development of microservices.
-Docker: Runs a Kafka cluster with multiple brokers and Zookeeper.
-Testing: Includes unit and integration tests using JUnit5.
-Error Handling and Recovery: Implements robust error handling, retry, and recovery mechanisms.
-Security: Secures Kafka communications using SSL.
-Project Structure
-Producer Microservice:
-Book scanning API to gather book data.
-Kafka producer to send book data to Kafka topic.
-Consumer Microservice:
-Kafka consumer to read data from Kafka topic.
-Persists book data into a database.
+Microservices Architecture: Separate Producer and Consumer microservices. <br>
+Kafka Integration: Utilizes Kafka for messaging between microservices. <br>
+Spring Boot: Simplifies the development of microservices. <br>
+Docker: Runs a Kafka cluster with multiple brokers and Zookeeper. <br>
+Testing: Includes unit and integration tests using JUnit5. <br>
+Error Handling and Recovery: Implements robust error handling, retry, and recovery mechanisms. <br>
+Security: Secures Kafka communications using SSL. <br>
+Project Structure <br>
+Producer Microservice: <br>
+Book scanning API to gather book data. <br>
+Kafka producer to send book data to Kafka topic. <br>
+Consumer Microservice: <br>
+Kafka consumer to read data from Kafka topic. <br>
+Persists book data into a database. <br>
 
 
 **Prerequisites**
