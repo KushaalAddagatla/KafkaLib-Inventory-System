@@ -35,61 +35,61 @@ Spring Boot <br>
 
 **Setup Instructions**
 
-Clone the Repository:
+Clone the Repository: 
 
 git clone https://github.com/your-username/kafkalib-inventory-system.git <br>
 cd kafkalib-inventory-system
 
-Start Kafka Cluster:
-Ensure Docker is installed and running.
-Navigate to the Docker directory and run the Docker Compose file:
-cd kafka-cluster
-docker-compose up
+Start Kafka Cluster: <br>
+Ensure Docker is installed and running. <br>
+Navigate to the Docker directory and run the Docker Compose file: <br>
+cd kafka-cluster <br>
+docker-compose up <br>
 
-Build and Run Microservices:
-Navigate to the Producer microservice directory and run:
-cd library-events-producer
-mvn clean install
-mvn spring-boot:run
+Build and Run Microservices: <br>
+Navigate to the Producer microservice directory and run: <br>
+cd library-events-producer <br>
+mvn clean install <br>
+mvn spring-boot:run <br>
 
 Navigate to the Consumer microservice directory and run:
-cd library-events-consumer
-mvn clean install
-mvn spring-boot:run
+cd library-events-consumer <br>
+mvn clean install <br>
+mvn spring-boot:run <br>
 
 
 **Usage**
 
-Producer Microservice:
-Use the book scanning API to post book information. 
+Producer Microservice: <br>
+Use the book scanning API to post book information. <br>
 
-Consumer Microservice:
-The consumer will automatically consume messages from the Kafka topic and persist them into the database.
+Consumer Microservice: <br>
+The consumer will automatically consume messages from the Kafka topic and persist them into the database.<br>
 
 
 **Testing**
 
 Unit Tests:
 
-Run unit tests for the Producer microservice:
-cd library-events-producer
+Run unit tests for the Producer microservice: <br>
+cd library-events-producer <br>
+mvn test <br>
+
+Run unit tests for the Consumer microservice: <br>
+cd library-events-consumer <br>
 mvn test
 
-Run unit tests for the Consumer microservice:
-cd library-events-consumer
-mvn test
 
-
-Integration Tests:
+Integration Tests: <br>
 Integration tests use Embedded Kafka to simulate Kafka interactions.
 
-Run integration tests for the Producer microservice:
-cd library-events-producer
-mvn verify
+Run integration tests for the Producer microservice: <br>
+cd library-events-producer <br>
+mvn verify <br>
 
-Run integration tests for the Consumer microservice:
-cd clibrary-events-consumer
-mvn verify
+Run integration tests for the Consumer microservice: <br>
+cd clibrary-events-consumer <br>
+mvn verify <br>
 
 
 **Error Handling, Retry, and Recovery**
