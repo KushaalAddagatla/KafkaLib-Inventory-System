@@ -26,18 +26,18 @@ Persists book data into a database. <br>
 
 **Prerequisites**
 
-Java 8+
-Maven
-Docker
-Apache Kafka
-Spring Boot
+Java 8+ <br>
+Maven <br>
+Docker <br>
+Apache Kafka <br>
+Spring Boot <br>
 
 
 **Setup Instructions**
 
 Clone the Repository:
 
-git clone https://github.com/your-username/kafkalib-inventory-system.git
+git clone https://github.com/your-username/kafkalib-inventory-system.git <br>
 cd kafkalib-inventory-system
 
 Start Kafka Cluster:
